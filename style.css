@@ -1,0 +1,22 @@
+.prompt-item, .response-item{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+.prompt-item p:first-child{
+    font-weight: bold;
+}
+.prompt-item p{
+    margin: 4px 0;
+}
+
+.invitation-item{
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+}
+.invitation > * {
+    display: block;
+    margin: 8px 0;
+}

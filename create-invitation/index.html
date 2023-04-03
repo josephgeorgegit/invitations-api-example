@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="step-1">
+        <h1>Create Invitation</h1>
+        <h3>Step 1/2</h3>
+        <div class="input-field">
+            <label for="">Title</label>
+            <input id="title" type="text" placeholder="Title">
+        </div>
+        <div class="input-field">
+            <label for="">Message</label>
+            <input id="message" type="text" placeholder="Message">
+        </div>
+        <div class="input-field">
+            <label for="">End Date</label>
+            <input id="end-date" type="date">
+        </div>
+        <button id="save-1">Save</button>
+    </div>
+
+    <!-- <div id="step-2" style="display: none;"> -->
+    <div id="step-2" ">
+        <h1>Add Questions to Invitation</h1>
+        <h3>Step 2/2</h3>
+        <h1>Templates</h1>
+        <div id="templates"></div>
+        <h1>Prompts</h1>
+        <div id="prompts"></div>
+        <button id="save-2">Save</button>
+    </div>
+
+    <div id="step-3" style="display: none">
+        <h1>Your invitation  has been created</h1>
+        <div id="invitation-details"></div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
